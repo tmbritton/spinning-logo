@@ -51,7 +51,7 @@
             camera.attachControl(canvas, true);
 
             // Create environment
-            var hdrTexture = BABYLON.CubeTexture.CreateFromPrefilteredData("/textures/environment.dds", scene);
+            var hdrTexture = BABYLON.CubeTexture.CreateFromPrefilteredData("./textures/environment.dds", scene);
             hdrTexture.name = "envTex";
             hdrTexture.gammaSpace = false;
             scene.environmentTexture = hdrTexture;
